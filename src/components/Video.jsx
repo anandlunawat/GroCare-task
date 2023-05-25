@@ -12,7 +12,7 @@ export default function Video(props) {
             </div>
             <span className='absolute top-[80%] text-white'>{props.player.submission?.title}</span>
             <div className='relative flex flex-row items-center justify-center gap-6 -top-20'>
-                <img src={props.player.creator?.pic} className='w-5' />
+                <img src={props.player.creator?.pic} alt={props.player.creator?.handle} className='w-5' />
                 <span className='text-lg text-white'>{props.player.creator?.handle}</span>
                 <div className="flex gap-1 ml-auto text-white">
                     {props.player.reaction?.count}

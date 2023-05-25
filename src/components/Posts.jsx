@@ -55,7 +55,8 @@ export default function Posts() {
                                     onClick={() => { setPlayer(post); document.querySelector('body').style.overflow = "hidden" }}
                                 >
                                     <img
-                                        src={post.submission?.thumbnail}
+                                        src={post.submission?.thumbnail}                                        
+                                        alt={post.creator?.handle}
                                         className="rounded-xl w-fit"
                                     />
                                     <span className="self-center">{post.submission?.title}</span>
