@@ -76,7 +76,7 @@ export default function Posts() {
                     <div className="flex flex-row self-center justify-center gap-3 mt-3 font-medium">
                         {numbers?.map(number => {
                             return (
-                                <button key={number} onClick={() => { setPage(number); }}>
+                                <button className={`${page === number ? "underline" : ""}`} key={number} onClick={() => { setPage(number); }}>
                                     {console.log(number)}
                                     {number}
                                 </button>
