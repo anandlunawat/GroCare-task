@@ -57,7 +57,7 @@ export default function Posts() {
                                     <img
                                         src={post.submission?.thumbnail}                                        
                                         alt={post.creator?.handle}
-                                        className="rounded-xl w-fit"
+                                        className="w-full rounded-xl"
                                     />
                                     <span className="self-center">{post.submission?.title}</span>
                                     <div className="flex flex-row w-full gap-2 font-normal">
