@@ -33,8 +33,8 @@ export default function Posts() {
     }, [page, numbers]);
 
     const addPageToNumbers = () => {
-        if (!numbers.includes(page)) {
-            setNumbers((prevNumbers) => [...prevNumbers, page]);
+        if (!numbers.includes(page+1)) {
+            setNumbers((prevNumbers) => [...prevNumbers, page+1]);
         }
     };
 
