@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { AiFillDislike, AiFillLike, AiOutlineRight } from "react-icons/ai";
+import { AiFillLike, AiOutlineRight } from "react-icons/ai";
 import Video from "./Video";
 import Loader from "./Loader";
 

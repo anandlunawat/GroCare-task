@@ -1,4 +1,3 @@
-
 export default function Loader() {
     
     const cardIndices = Array.from({ length: 15 }, (_, index) => index);
